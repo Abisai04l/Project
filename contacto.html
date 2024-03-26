@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+	<!-- MyStyleSheets -->
+	<link href="css/normalize.css" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+	<link href="css/style3.css" rel="stylesheet"/>
+        <title>Contact</title>
+    </head>
+    <body>
+	<!-- MyScriptSheet -->
+
+	<!-- MyScriptSheet-END -->
+
+	<!-- Header -->
+	<header>
+	    <h1 class="title">
+		Jason Arriaza <span>Freelancer</span> 
+	    </h1>
+	</header>
+	<!-- Header-END -->
+
+	<!-- Navegation -->
+	<div class="nav-bg">
+	    <nav class="navegation-p container">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="projects.html">Projects</a>
+		<a href="contacto.html">Contact</a>
+	    </nav>    
+	</div>
+	<!-- Navegation-END -->
+
+	<!-- Main -->
+	<main class="krub-regular container shade">
+
+	    <!--FORM -->
+	    <section>
+		<h2>Contact</h2>
+		<form class="formulary" action="process_form.php" method="POST">
+		    <fieldset>
+			<legend>
+			    Contact us by filling out all the fields on the form.
+			</legend>
+			<div class="container-camps">
+			    <div class="camps">
+				<label for="">Name</label>
+				<input name="name" required id="name" type="text" value="" placeholder="Your Name" />
+			    </div>
+			    <div class="camps">
+				<label for="">Phone</label>
+				<input name="phone" id="phone" type="tel" value="" placeholder="Your Cellphone" />
+			    </div>
+			    <div class="camps">
+				<label for="">Email</label>
+				<input name="email" required id="email" type="email" value="" placeholder="Your Email" /> 
+			    </div>
+			    <div class="camps">
+				<label for="">Message</label>
+				<textarea cols="30" required id="message" name="message" rows="10"></textarea>
+			    </div>
+			    <div class="send alinear-derecha flex">
+				<input class="button w-100" type="submit" value="Send"/>
+			    </div>
+			</div>
+		    </fieldset>
+		</form>
+	    </section>
+	    <!-- FORM-END -->
+
+	</main>	
+	<!-- Main-END -->
+
+	<!-- Footer -->
+	<footer class="footer">
+	    &copy; 2024 Jason Arriaza At Freelancer. All Rights Reserved.
+	</footer>
+	<!-- Footer-END -->
+	
+
+
+    </body>
+</html>
