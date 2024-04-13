@@ -47,7 +47,6 @@ h1, h2, h3{
     text-align: center;
 
 }
-`
 
 .button{
     background-color: var(--secundary);
@@ -63,9 +62,6 @@ h1, h2, h3{
     text-align: center;
     border: none;
 }
-
-
-
 
 
 .button:hover{
