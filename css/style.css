@@ -63,7 +63,6 @@ h1, h2, h3{
     border: none;
 }
 
-
 .button:hover{
     cursor: pointer;
 }
@@ -126,7 +125,7 @@ h1, h2, h3{
 @media (min-width: 480px){
     .navegation-p{
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
     }
 
 }
